@@ -19,7 +19,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4129305619707180}
-  - component: {fileID: 60467245099829484}
+  - component: {fileID: 68437284380779998}
   m_Layer: 0
   m_Name: Player Colider
   m_TagString: Untagged
@@ -68,7 +68,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1918979873681962}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.743, y: -2.5, z: 0}
+  m_LocalPosition: {x: -10.324, y: -2.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4129305619707180}
@@ -140,8 +140,8 @@ PolygonCollider2D:
       - {x: -0.33391476, y: 0.27503896}
       - {x: 0.3313446, y: 0.27760935}
       - {x: 0.45472622, y: 0.3627715}
---- !u!60 &60467245099829484
-PolygonCollider2D:
+--- !u!68 &68437284380779998
+EdgeCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -153,25 +153,13 @@ PolygonCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_EdgeRadius: 0
   m_Points:
-    m_Paths:
-    - - {x: -0.21636581, y: 0.66237617}
-      - {x: -0.4452839, y: 0.36133814}
-      - {x: -0.27386665, y: 0.18300939}
-      - {x: -0.24478912, y: 0.016498327}
-      - {x: 0.32777786, y: 0.022235155}
-      - {x: 0.32504845, y: 0.20548153}
-      - {x: 0.44826317, y: 0.3653078}
-      - {x: 0.22296906, y: 0.6696265}
+  - {x: 0.3071928, y: 0.005765438}
+  - {x: -0.3394928, y: 0.0037901402}
+  - {x: -0.35331726, y: 0.6688167}
+  - {x: 0.338562, y: 0.6688167}
+  - {x: 0.33856106, y: -0.0057656765}
 --- !u!95 &95617103770490046
 Animator:
   serializedVersion: 3

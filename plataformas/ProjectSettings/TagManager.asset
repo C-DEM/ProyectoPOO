@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - Plataforma
+  - corazon
   layers:
   - Default
   - TransparentFX

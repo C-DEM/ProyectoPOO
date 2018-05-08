@@ -79,14 +79,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Boton.cs" />
-    <Compile Include="Assets\CaerPlataforma.cs" />
-    <Compile Include="Assets\ChecarPisar.cs" />
-    <Compile Include="Assets\DibujarTrayectoria.cs" />
-    <Compile Include="Assets\MoveEnemy.cs" />
-    <Compile Include="Assets\MoverCamara.cs" />
-    <Compile Include="Assets\MoverPlataforma.cs" />
-    <Compile Include="Assets\move.cs" />
+    <Compile Include="Assets\Arbol\Bueno.cs" />
+    <Compile Include="Assets\Arbol\Entidad.cs" />
+    <Compile Include="Assets\Arbol\Malo.cs" />
+    <Compile Include="Assets\Arbol\Personaje.cs" />
+    <Compile Include="Assets\Scripts\Boton.cs" />
+    <Compile Include="Assets\Scripts\CaerPlataforma.cs" />
+    <Compile Include="Assets\Scripts\ChecarPisar.cs" />
+    <Compile Include="Assets\Scripts\DibujarTrayectoria.cs" />
+    <Compile Include="Assets\Scripts\MoveEnemy.cs" />
+    <Compile Include="Assets\Scripts\MoverCamara.cs" />
+    <Compile Include="Assets\Scripts\MoverPlataforma.cs" />
+    <Compile Include="Assets\Scripts\TimerController.cs" />
+    <Compile Include="Assets\Scripts\move.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

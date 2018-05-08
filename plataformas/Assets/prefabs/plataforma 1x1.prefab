@@ -21,6 +21,8 @@ GameObject:
   - component: {fileID: 4702906118528024}
   - component: {fileID: 212939613268522750}
   - component: {fileID: 61744533179366624}
+  - component: {fileID: 68921848059072294}
+  - component: {fileID: 68116437508578184}
   m_Layer: 0
   m_Name: plataforma 1x1
   m_TagString: Untagged
@@ -64,7 +66,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1023269369364564}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.3, y: 3, z: 0}
+  m_LocalPosition: {x: -8.3, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4683699742620482}
@@ -92,10 +94,28 @@ BoxCollider2D:
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_AutoTiling: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!68 &68116437508578184
+EdgeCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1023269369364564}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 0.52468204, y: 0.4881518}
+  - {x: 0.52468204, y: 0.75422597}
+  - {x: 0.52418804, y: -0.7395607}
 --- !u!68 &68626155874848012
 EdgeCollider2D:
   m_ObjectHideFlags: 1
@@ -115,6 +135,26 @@ EdgeCollider2D:
   - {x: -0.51156616, y: 0.49737167}
   - {x: 0.48843336, y: 0.5089383}
   - {x: 0.48843336, y: 0.46267104}
+--- !u!68 &68921848059072294
+EdgeCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1023269369364564}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: 7d14595614259124cbe1d143c177859a, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.40324593, y: -0.7421317}
+  - {x: -0.3669634, y: -0.24626648}
+  - {x: -0.5, y: -0.80039454}
+  - {x: -0.5416374, y: -0.47947145}
+  - {x: -0.52468204, y: 0.6787286}
 --- !u!212 &212939613268522750
 SpriteRenderer:
   m_ObjectHideFlags: 1
