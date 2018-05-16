@@ -1,4 +1,13 @@
 sceneSetups:
-- path: Assets/Escenas/Empezar.unity
+- path: Assets/Escenas/Muerte.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Escenas/Muerte.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Escenas/Muerte.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Escenas/Scenes.unity
   isLoaded: 1
   isActive: 1

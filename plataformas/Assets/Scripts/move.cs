@@ -127,6 +127,7 @@ public class move : MonoBehaviour
         }
 
     }
+    
     void Activarmovimiento()
     {
         movimiento = true;

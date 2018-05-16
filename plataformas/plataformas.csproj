@@ -88,6 +88,7 @@
     <Compile Include="Assets\Scripts\ChecarPisar.cs" />
     <Compile Include="Assets\Scripts\DibujarTrayectoria.cs" />
     <Compile Include="Assets\Scripts\MoveEnemy.cs" />
+    <Compile Include="Assets\Scripts\MoveJefe.cs" />
     <Compile Include="Assets\Scripts\MoverCamara.cs" />
     <Compile Include="Assets\Scripts\MoverPlataforma.cs" />
     <Compile Include="Assets\Scripts\TimerController.cs" />
