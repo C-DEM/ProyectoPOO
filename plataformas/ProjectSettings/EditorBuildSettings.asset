@@ -6,11 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Escenas/Muerte.unity
-    guid: d511a323c7926284394d0e93b3944626
+    path: Assets/Escenas/Empezar.unity
+    guid: b3842ce59085c9e4aa4489dbc0143e08
   - enabled: 1
     path: Assets/Escenas/Scenes.unity
     guid: a91d4af828bc9034691b08f53822d041
   - enabled: 1
-    path: Assets/Escenas/Empezar.unity
-    guid: 00000000000000000000000000000000
+    path: Assets/Escenas/Muerte.unity
+    guid: d511a323c7926284394d0e93b3944626

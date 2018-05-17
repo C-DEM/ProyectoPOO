@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class TimerController : MonoBehaviour {
     public Text timer;
-    private float Tiempo = 90f;
+    private float Tiempo = 150f;
 	// Use this for initialization
 	void Start () {
         timer.text = " " + Tiempo;
