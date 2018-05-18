@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class move : MonoBehaviour
 {
@@ -16,18 +17,24 @@ public class move : MonoBehaviour
     private bool movimiento = true;
     private SpriteRenderer spr;
     public int vidas = 2;
+
+
+    public Text score;
+    private float puntos = 0;
     // Use this for initialization
     void Start () 
 	{
 		rb2d = GetComponent<Rigidbody2D>();
 		anim = GetComponent<Animator> ();
         spr = GetComponent<SpriteRenderer>();
-	}
+        
+    }
 	
 	// Update is called once per frame
 	void Update () 
 	{
-		anim.SetFloat("Speed",Mathf.Abs(rb2d.velocity.x));
+        score.text = "score: " + puntos;
+        anim.SetFloat("Speed",Mathf.Abs(rb2d.velocity.x));
 		anim.SetBool ("Grounded", grounded);
 
         if (grounded)
@@ -106,9 +113,13 @@ public class move : MonoBehaviour
     public void EnemyJump()
     {
         jump = true;
+        puntos += 100;
+
+
     }
     public void EnemyGolpe(float enemyposx)
     {
+        
         jump = true;
         float lado = Mathf.Sin(enemyposx-transform.position.x);
         rb2d.AddForce(Vector2.left *(50*lado), ForceMode2D.Impulse);
