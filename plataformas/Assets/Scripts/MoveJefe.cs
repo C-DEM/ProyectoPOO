@@ -53,7 +53,7 @@ public class MoveJefe : MonoBehaviour
                 else
                 {
                     vidas = vidas - 1;
-                    int rnd = Random.Range(103,119);
+                    int rnd = Random.Range(314,329);
                     transform.position = new Vector3(rnd, 1, 0);
                     //Color color = new Color(124 / 255f, 48 / 255f, 48 / 255f, 255 / 255f);
                     GetComponent<SpriteRenderer>().color= new Color(Random.value,Random.value,Random.value,Random.value);
