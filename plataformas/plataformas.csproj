@@ -87,11 +87,15 @@
     <Compile Include="Assets\Scripts\CaerPlataforma.cs" />
     <Compile Include="Assets\Scripts\ChecarPisar.cs" />
     <Compile Include="Assets\Scripts\DibujarTrayectoria.cs" />
+    <Compile Include="Assets\Scripts\MainMuerte.cs" />
     <Compile Include="Assets\Scripts\MoveEnemy.cs" />
     <Compile Include="Assets\Scripts\MoveJefe.cs" />
     <Compile Include="Assets\Scripts\MoverCamara.cs" />
     <Compile Include="Assets\Scripts\MoverPlataforma.cs" />
+    <Compile Include="Assets\Scripts\Pause.cs" />
+    <Compile Include="Assets\Scripts\Tablas.cs" />
     <Compile Include="Assets\Scripts\TimerController.cs" />
+    <Compile Include="Assets\Scripts\invisibilidad.cs" />
     <Compile Include="Assets\Scripts\move.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
